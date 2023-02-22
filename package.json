@@ -1,0 +1,23 @@
+{
+  "name": "pun-app",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist-electron/main.js",
+  "author": "PangKaChun",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^23.1.0",
+    "electron-builder": "^23.6.0",
+    "vite": "^4.1.0",
+    "vite-plugin-electron": "^0.11.1"
+  }
+}
